@@ -28,13 +28,13 @@ import TextTransformation from "@ckeditor/ckeditor5-typing/src/texttransformatio
 import Indent from "@ckeditor/ckeditor5-indent/src/indent";
 import IndentBlock from "@ckeditor/ckeditor5-indent/src/indentblock";
 import Base64UploadAdapter from "@ckeditor/ckeditor5-upload/src/adapters/base64uploadadapter";
-//import "./editor.scss";
+import "./editor.scss";
 
 const Editor = () => {
   return (
     <>
-      <div>에디터!!</div>
       <div className="editorApp">
+        &nbsp;&nbsp; <h1>CKEditor5</h1>
         <CKEditorContext context={Context}>
           <CKEditor
             editor={ClassicEditor}
